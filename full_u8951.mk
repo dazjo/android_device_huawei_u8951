@@ -14,11 +14,11 @@
 # limitations under the License.
 #
 
-# Inherit u8833 definitions
-$(call inherit-product, device/huawei/u8833/full_u8833.mk)
-
 # Inherit from u8951 device
 $(call inherit-product, device/huawei/u8951/u8951.mk)
+
+# Inherit u8833 definitions
+$(call inherit-product, device/huawei/u8833/full_u8833.mk)
 
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := full_u8951

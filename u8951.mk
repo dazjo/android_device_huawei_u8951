@@ -36,9 +36,9 @@ PRODUCT_COPY_FILES += \
 
 # NFCEE access control
 ifeq ($(TARGET_BUILD_VARIANT),user)
-    NFCEE_ACCESS_PATH := device/huawei/msm7x27a-common/configs/nfcee_access.xml
+    NFCEE_ACCESS_PATH := device/huawei/u8951/configs/nfcee_access.xml
 else
-    NFCEE_ACCESS_PATH := device/huawei/msm7x27a-common/configs/nfcee_access_debug.xml
+    NFCEE_ACCESS_PATH := device/huawei/u8951/configs/nfcee_access_debug.xml
 endif
 PRODUCT_COPY_FILES += \
     $(NFCEE_ACCESS_PATH):system/etc/nfcee_access.xml
